@@ -4,6 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding-top: 0.5%;
+    background-color: #4c8c63;
 }
 
 
@@ -33,6 +34,7 @@
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
+
 }
 
 .cabecalho img{
