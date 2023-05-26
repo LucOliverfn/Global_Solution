@@ -2,6 +2,7 @@
     display: flex;
     padding-top: 5%;
     justify-content: space-around;
+    color: white;
 }
 
 .conteudo div{
@@ -20,4 +21,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100;
 }
