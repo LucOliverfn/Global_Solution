@@ -1,0 +1,15 @@
+@import url(home.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url(cabecalho.css);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    min-height: 400px;
+    margin-bottom: 100px;
+    background: #549f6e;
+}

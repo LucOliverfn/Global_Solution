@@ -1,0 +1,42 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 0.5%;
+}
+
+
+.cabecalho nav{
+    padding: 0 10%;
+}
+.cabecalho ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.cabecalho li{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8%;    
+}
+
+.cabecalho a{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    color: white;  
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.cabecalho img{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
