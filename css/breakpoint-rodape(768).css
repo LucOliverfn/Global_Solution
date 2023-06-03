@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: #4c8c63;
+        ;
+        padding-bottom: 0.5%;
+        
+    }
+    
+    .rodape h2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: white;
+    }
+    
+    
+    
+    .rodape nav{
+        display: flex;
+        justify-content:center;
+    }
+    
+    
+    
+    .rodape a{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        font-size: 6px;        
+    }
+    
+    .rodape img{
+        width: 8%;
+        border-radius: 100%;
+    }
+}

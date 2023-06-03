@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url(cabecalho.css);
 @import url(rodape.css);
+@import url(breakpoint-page\(768\).css);
+@import url(breakpoint-cabecalho\(768\).css);
+@import url(breakpoint-rodape\(768\).css);
 * {
     box-sizing: border-box;
     margin: 0;
