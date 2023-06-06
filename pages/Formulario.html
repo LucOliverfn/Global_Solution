@@ -29,7 +29,12 @@
     <body>
         <h1> Formularios</h1>
         <h2>Sobre duvidas do conteudo: </h2>
-        <form id="form1" action="../pages/Formulario.html" method="post"> 
+        <form id="form1" action="/pages/Formulario.html" method="">
+            <!-- 
+                method esta vazio pela fluidez dessa versão de teste
+                caso method estivesse preenchido aconteceria um erro(405), ao clicar o botao de envio
+                Se não fosse o caso, usariamos method = POST porque não queremos essas informações inclusas na URL 
+            -->
             <div id="linha1">
                 <div>
                     <label for="nome">Nome:</label>
@@ -61,8 +66,13 @@
 
         <h2>Denuncie um caso de crime ambiental: </h2>
 
-        <form id="form2" action="" method="post">
-            <div>
+        <form id="form2" action="/pages/Formulario.html" method="">
+            <!--
+                method esta vazio pela fluidez dessa versão de teste
+                caso method estivesse preenchido aconteceria um erro(405), ao clicar o botao de envio
+                Se não fosse o caso, usariamos method = POST porque não queremos essas informações inclusas na URL
+            -->
+                <div>
                 <div id="denuncia1">
                     <div>
                         <label for="local">Local:</label>
