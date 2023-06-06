@@ -5,8 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
-    
+    <header class="cabecalho">    
+        <a href="https://youtu.be/hN-wOSViC-A" target="_blank"><img src="../img/inicio.png" alt="logo de inicio plantinhas"></a>
+
+    <nav> 
+        <ul class="menu">
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/pages/Agricultura_sustentavel.html">AGRICULTURA SUSTENTAVEL</a></li>
+            <li><a href="/pages/IA_Generativas.html">INTELIGENCIA ARTIFICIAL</a></li>
+            <li><a href="/pages/Cultivos.html">CULTIVOS</a></li>
+            <li><a href="/pages/Formulario.html">FORMULARÍO</a></li>     
+        </ul>
+    </nav> 
+    </header>
+    <hr>
+
+    <body>
+        <h1> Formularios</h1>
+        <h2>Sobre duvidas do conteudo: </h2>
+        <form id="form1" action="/pages/Formulario.html" method="">
+            <!-- 
+                method esta vazio pela fluidez dessa versão de teste
+                caso method estivesse preenchido aconteceria um erro(405), ao clicar o botao de envio
+                Se não fosse o caso, usariamos method = POST porque não queremos essas informações inclusas na URL 
+            -->
+            <div id="linha1">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" />
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" />
+                </div>
+                <div>
+                    <label for="celular">Celular: </label>
+                    <input type="tel" id="celular" />
+                </div>
+            </div>
+            <div id="linha2">
+                <div id="assunto">
+                    <label for="ass">Assunto:</label>
+                    <input type="text" id="ass">
+                </div>
+                <div id="mensagem">
+                    <label for="nome">E-mail:</label>
+                    <textarea type="text" id="nome"></textarea>
+                </div>
+                <div id="butao1">
+                    <button class="button" type="submit" id="butao1">Enviar E-mail</button>
+                </div>   
+            </div>   
+        </form>
+
+        <h2>Denuncie um caso de crime ambiental: </h2>
+
+        <form id="form2" action="/pages/Formulario.html" method="">
+            <!--
+                method esta vazio pela fluidez dessa versão de teste
+                caso method estivesse preenchido aconteceria um erro(405), ao clicar o botao de envio
+                Se não fosse o caso, usariamos method = POST porque não queremos essas informações inclusas na URL
+            -->
+                <div>
+                <div id="denuncia1">
+                    <div>
+                        <label for="local">Local:</label>
+                        <input type="text" id="local"/>
+                    </div>
+
+                    <div>
+                        <label for="msg">Delator:</label>
+                        <input value="anonimo" type="text" id="msg">
+                    </div>
+                </div>
+            <div id="denuncia2">
+                <div>
+                    <label for="ocorrido">Descreva o ocorrido: </label>
+                    <textarea type="text" id="ocorrido"></textarea>
+                </div>
+            </div>
+                <div id="denuncia3">
+                    <div>
+                        <label for="nome">Quando ocorreu:</label>
+                        <input type="text" id="nome" />
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail para contato:</label>
+                        <input type="email" id="email" />
+                    </div>
+
+                    <div>
+                        <label for="celular">Celular para contato: </label>
+                        <input type="tel" id="celular" />
+                    </div>
+                </div>
+                <div id="denuncia4">
+                    <legend>Tipo do crime ocorrido:</legend>
+                    <label for="fauna">Crimes contra a fauna</label>
+                    <input type="checkbox" id="fauna" />
+                    <label for="flora">Crimes contra flora</label>
+                    <input type="checkbox" id="flora" />
+                    <label for="poluicao_outros">Poluição e outros crimes ambientais</label>
+                    <input type="checkbox" id="poluicao_outros" />
+                    <label for="urbano_cultural">Crimes contra o ordenamento urbano e o patrimônio cultural</label>
+                    <input type="checkbox" id="urbano_cultural" />
+                    <label for="adm">Crimes contra a administração ambiental</label>
+                    <input type="checkbox" id="adm" />
+                </div>
+                <div id="butao2">
+                    <button class="button" type="submit" id="butao2">Enviar denuncia</button>
+                </div>
+            </div> 
+        </form>
+    </body>
+
+    <footer class="rodape">
+        <h2>Integrantes</h2>
+        <nav>
+            
+            <a href="https://www.linkedin.com/in/alexandre-portugal-680b35195" target="_blank"> <img src="../img/perfil_alexandre.jpeg" alt="foto perfil perfil alexandre">Alexandre(RM551737)</a>
+            <p></p>
+            <a href="https://www.linkedin.com/in/jonathanmateussouza" target="_blank"> <img src="../img/perfil_jonathan.jpeg" alt="foto de perfil jonathan"> Jonathan(RM551643)</a>
+            <p></p>
+            <a href="https://www.linkedin.com/in/tomazpecoraro" target="_blank"> <img src="../img/perfil_tomaz.jpeg" alt="foto de perfil Tomaz">Tomaz(RM98499)</a>
+            <p></p>
+            <a href="https://www.linkedin.com/in/lucas-oliveira-figueiredo-nascimento-43b846204" target="_blank"> <img src="../img/perfil_lucas.jpeg" alt="foto de perfil Lucas">Lucas(RM551407)</a>
+            <p></p>
+            <a href="https://github.com/Nanre1027" target="_blank"> <img src="../img/perfil_renan.jpeg" alt="foto de perfil Renan">Renan(RM551553)</a>
+            <p></p>
+        </nav>
+    </footer>
 </body>
 </html>
